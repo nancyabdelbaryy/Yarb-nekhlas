@@ -1,0 +1,46 @@
+﻿@model List<mentalHealth.Models.Therapist>
+@{
+    ViewData["Title"] = "Our Therapists";
+    Layout = "_Layout";
+}
+
+<div class="container py-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1><i class="fas fa-user-md text-primary me-2"></i>Our Therapists</h1>
+        <!-- Removed User.Identity check -->
+        <a asp-action="Therapists" asp-route-filter="preferences" class="btn btn-primary">
+            <i class="fas fa-filter me-1"></i> Filter by Preferences
+        </a>
+    </div>
+    <div class="row">
+        @foreach (var therapist in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="@therapist.ProfileImage" class="card-img-top" style="height: 200px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">@therapist.Name</h5>
+                        <p class="text-muted">
+                            <i class="fas fa-certificate text-primary me-1"></i> @therapist.Specialization
+                        </p>
+                        <div class="mb-2">
+                            <span class="badge bg-secondary">@therapist.Gender</span>
+                            @if (therapist.ProvidesOnlineSessions)
+                            {
+                                <span class="badge bg-success ms-1">Online</span>
+                            }
+                            @if (therapist.ProvidesOfflineSessions)
+                            {
+                                <span class="badge bg-primary ms-1">In-Person</span>
+                            }
+                        </div>
+                        <a asp-action="TherapistDetails" asp-route-id="@therapist.Id"
+                           class="btn btn-outline-primary btn-sm mt-2">
+                            <i class="fas fa-eye me-1"></i> View Profile
+                        </a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

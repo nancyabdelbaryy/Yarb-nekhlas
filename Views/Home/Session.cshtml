@@ -1,0 +1,117 @@
+﻿@model List<mentalHealth.Models.Session>
+@{
+    ViewData["Title"] = "My Sessions";
+    Layout = "_Layout";
+}
+
+<div class="container py-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1><i class="fas fa-calendar-check me-2"></i>My Sessions</h1>
+        <a asp-action="BookSession" class="btn btn-primary">
+            <i class="fas fa-plus me-1"></i> New Session
+        </a>
+    </div>
+
+    <div class="row">
+        @foreach (var session in Model.OrderBy(s => s.StartTime))
+        {
+            <div class="col-md-6 mb-4">
+                <div class="card shadow-sm h-100">
+                    <div class="card-header @GetSessionHeaderClass(session) text-white">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="mb-0">
+                                <i class="@GetSessionIcon(session) me-2"></i>
+                                @session.Type.ToString() Session
+                            </h5>
+                            <span class="badge bg-light text-dark">@session.Status.ToString()</span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <h6 class="text-muted">Therapist</h6>
+                            <p>@session.Therapist?.Name</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <h6 class="text-muted">When</h6>
+                                <p>@session.StartTime.ToString("MMM dd, yyyy h:mm tt")</p>
+                            </div>
+                            <div class="col-6">
+                                <h6 class="text-muted">Duration</h6>
+                                <p>@session.Duration.TotalMinutes minutes</p>
+                            </div>
+                        </div>
+                        @if (!string.IsNullOrEmpty(session.Notes))
+                        {
+                            <h6 class="text-muted mt-3">Notes</h6>
+                            <p>@session.Notes</p>
+                        }
+                    </div>
+                    <div class="card-footer bg-transparent">
+                        <div class="d-flex justify-content-between">
+                            @if (session.Status == SessionStatus.Booked)
+                            {
+                                <form asp-action="CancelSession" method="post">
+                                    <input type="hidden" name="id" value="@session.Id" />
+                                    <button type="submit" class="btn btn-sm btn-outline-danger">
+                                        <i class="fas fa-times me-1"></i> Cancel
+                                    </button>
+                                </form>
+                            }
+                            else
+                            {
+                                <span class="text-muted">Session @session.Status.ToString().ToLower()</span>
+                            }
+
+                            @if (session.Type == SessionType.VideoCall && !string.IsNullOrEmpty(session.MeetingLink))
+                            {
+                                <a href="@session.MeetingLink" class="btn btn-sm btn-primary">
+                                    <i class="fas fa-video me-1"></i> Join
+                                </a>
+                            }
+                            else if (session.Type == SessionType.Chat && !string.IsNullOrEmpty(session.ChatAccessToken))
+                            {
+                                <button class="btn btn-sm btn-info" onclick="connectChat('@session.ChatAccessToken')">
+                                    <i class="fas fa-comments me-1"></i> Chat
+                                </button>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@functions {
+    string GetSessionHeaderClass(mentalHealth.Models.Session session)
+    {
+        return session.Type switch
+        {
+            SessionType.VideoCall => "bg-primary",
+            SessionType.Chat => "bg-info",
+            SessionType.InPerson => "bg-success",
+            _ => "bg-secondary"
+        };
+    }
+
+    string GetSessionIcon(mentalHealth.Models.Session session)
+    {
+        return session.Type switch
+        {
+            SessionType.VideoCall => "fas fa-video",
+            SessionType.Chat => "fas fa-comments",
+            SessionType.InPerson => "fas fa-map-marker-alt",
+            _ => "fas fa-calendar"
+        };
+    }
+}
+
+@section Scripts {
+    <script>
+        function connectChat(token) {
+            alert("Connecting to chat with token: " + token);
+            // Implement actual chat connection logic
+        }
+    </script>
+}

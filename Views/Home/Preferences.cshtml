@@ -1,0 +1,61 @@
+﻿@model mentalHealth.Models.User
+@{
+    ViewData["Title"] = "My Preferences";
+    Layout = "_Layout";
+}
+
+<div class="container py-4">
+    <div class="card shadow">
+        <div class="card-header bg-primary text-white">
+            <h3><i class="fas fa-sliders-h me-2"></i>My Preferences</h3>
+        </div>
+        <div class="card-body">
+            @if (TempData["Success"] != null)
+            {
+                <div class="alert alert-success">@TempData["Success"]</div>
+            }
+
+            <form asp-action="Preferences" method="post">
+                <input type="hidden" asp-for="Id" />
+
+                <div class="mb-3">
+                    <label asp-for="PreferredTherapistGender" class="form-label"></label>
+                    <select asp-for="PreferredTherapistGender" class="form-select">
+                        <option value="">No Preference</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other/Non-binary</option>
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="SessionPreference" class="form-label"></label>
+                    <select asp-for="SessionPreference" class="form-select">
+                        <option value="Both">Both Online & In-Person</option>
+                        <option value="Online">Online Only</option>
+                        <option value="Offline">In-Person Only</option>
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="TimePreference" class="form-label"></label>
+                    <select asp-for="TimePreference" class="form-select">
+                        <option value="Any">Any Time</option>
+                        <option value="Morning">Morning (8AM-12PM)</option>
+                        <option value="Afternoon">Afternoon (12PM-5PM)</option>
+                        <option value="Evening">Evening (5PM-9PM)</option>
+                    </select>
+                </div>
+
+                <div class="d-grid gap-2 d-md-block">
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-save me-1"></i> Save Preferences
+                    </button>
+                    <a asp-action="Profile" class="btn btn-outline-secondary">
+                        <i class="fas fa-arrow-left me-1"></i> Back to Profile
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

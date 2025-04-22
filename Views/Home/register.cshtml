@@ -1,0 +1,172 @@
+﻿@using mentalHealth.Models
+@model User
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MindCare - New Patient</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            background: url('https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80') no-repeat center center fixed;
+            background-size: cover;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+
+        .auth-card {
+            max-width: 600px;
+            background: rgba(255,255,255,0.96);
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            overflow: hidden;
+        }
+
+        .auth-header {
+            background: #5D5FEF;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        .auth-body {
+            padding: 30px;
+        }
+
+        .input-icon {
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #6c757d;
+        }
+
+        .form-control {
+            height: 50px;
+            padding-left: 45px;
+            border-radius: 8px;
+            border: 2px solid #e9ecef;
+        }
+
+            .form-control:focus {
+                border-color: #5D5FEF;
+                box-shadow: 0 0 0 0.25rem rgba(93,95,239,0.25);
+            }
+
+        .btn-auth {
+            background: #5D5FEF;
+            color: white;
+            border: none;
+            padding: 12px;
+            font-size: 18px;
+            font-weight: 600;
+            border-radius: 8px;
+            width: 100%;
+            transition: all 0.3s;
+        }
+
+            .btn-auth:hover {
+                background: #4A4DCA;
+            }
+
+        .auth-links a {
+            color: #5D5FEF;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .gender-select {
+            height: 50px;
+            border-radius: 8px;
+            padding-left: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="auth-card">
+            <div class="auth-header">
+                <h2><i class="fas fa-brain me-2"></i>MindCare Portal</h2>
+                <p class="mb-0">New Patient Registration</p>
+            </div>
+
+            <div class="auth-body">
+                <form asp-action="Register" method="post">
+                    <div class="row">
+                        <div class="col-md-6 mb-4 position-relative">
+                            <label asp-for="Name" class="form-label">Full Name</label>
+                            <i class="fas fa-user input-icon"></i>
+                            <input asp-for="Name" class="form-control" placeholder="As per ID" required>
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-md-6 mb-4 position-relative">
+                            <label asp-for="Email" class="form-label">Email</label>
+                            <i class="fas fa-envelope input-icon"></i>
+                            <input asp-for="Email" type="email" class="form-control" placeholder="patient@mindcare.com" required>
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-4 position-relative">
+                            <label asp-for="PasswordHash" class="form-label">Password</label>
+                            <i class="fas fa-lock input-icon"></i>
+                            <input asp-for="PasswordHash" type="password" class="form-control" placeholder="Create password" required>
+                            <span asp-validation-for="PasswordHash" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-md-6 mb-4 position-relative">
+                            <label asp-for="PhoneNumber" class="form-label">Phone</label>
+                            <i class="fas fa-phone input-icon"></i>
+                            <input asp-for="PhoneNumber" type="tel" class="form-control" placeholder="+01 234 567 890">
+                            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <label asp-for="DateOfBirth" class="form-label">Date of Birth</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fas fa-calendar-alt"></i></span>
+                                <input asp-for="DateOfBirth" type="date" class="form-control" required>
+                            </div>
+                            <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-md-6 mb-4">
+                            <label asp-for="Gender" class="form-label">Gender</label>
+                            <select asp-for="Gender" asp-items="Html.GetEnumSelectList<Gender>()" class="form-select gender-select">
+                                <option value="">Select Gender</option>
+                            </select>
+                            <span asp-validation-for="Gender" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-auth mb-3">
+                        <i class="fas fa-file-signature me-2"></i> COMPLETE REGISTRATION
+                    </button>
+
+                    <div class="auth-links text-center">
+                        <span>Already registered?</span>
+                        <a href="@Url.Action("Login")"><i class="fas fa-sign-in-alt me-1"></i>Login here</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js"></script>
+</body>
+</html>

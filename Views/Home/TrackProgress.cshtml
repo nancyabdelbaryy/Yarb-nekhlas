@@ -1,0 +1,93 @@
+﻿@model mentalHealth.Models.ProgressTracking
+@{
+    ViewData["Title"] = "Track My Progress";
+    Layout = "_Layout";
+}
+
+<div class="container py-4">
+    <div class="card shadow">
+        <div class="card-header bg-primary text-white">
+            <h3><i class="fas fa-chart-line me-2"></i> @ViewData["Title"]</h3>
+        </div>
+        <div class="card-body">
+            <form asp-action="TrackProgress" method="post">
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <label asp-for="Mood" class="form-label"></label>
+                        <select asp-for="Mood" asp-items="Html.GetEnumSelectList<MoodRating>()"
+                                class="form-select">
+                            <option value="">Select your mood...</option>
+                        </select>
+                        <span asp-validation-for="Mood" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-4">
+                        <label asp-for="RecordedDate" class="form-label"></label>
+                        <input asp-for="RecordedDate" type="datetime-local" class="form-control">
+                        <span asp-validation-for="RecordedDate" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Goals" class="form-label"></label>
+                    <input asp-for="Goals" class="form-control" placeholder="Current goals...">
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Notes" class="form-label"></label>
+                    <textarea asp-for="Notes" class="form-control" rows="3"
+                              placeholder="Journal your thoughts..."></textarea>
+                </div>
+
+                <div class="d-grid gap-2 d-md-flex">
+                    <button type="submit" class="btn btn-primary me-md-2">
+                        <i class="fas fa-save me-1"></i> Save Entry
+                    </button>
+                    <button type="reset" class="btn btn-outline-secondary">
+                        <i class="fas fa-undo me-1"></i> Reset
+                    </button>
+                </div>
+            </form>
+
+            <!-- Mood History -->
+            <div class="mt-5">
+                <h5><i class="fas fa-history me-2"></i>Your Mood History</h5>
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Date</th>
+                                <th>Mood</th>
+                                <th>Goals</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Example Entry (replace with real data later) -->
+                            <tr>
+                                <td>@DateTime.Now.AddDays(-1).ToString("MMM dd")</td>
+                                <td>
+                                    <span class="fs-5">🙂</span> Good
+                                    <div class="text-warning">★★★★☆</div>
+                                </td>
+                                <td>Practice mindfulness</td>
+                            </tr>
+                            <tr>
+                                <td>@DateTime.Now.AddDays(-3).ToString("MMM dd")</td>
+                                <td>
+                                    <span class="fs-5">😐</span> Neutral
+                                    <div class="text-warning">★★★☆☆</div>
+                                </td>
+                                <td>Complete therapy exercises</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

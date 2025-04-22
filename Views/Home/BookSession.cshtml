@@ -1,0 +1,100 @@
+﻿@model mentalHealth.Models.Session
+@{
+    ViewData["Title"] = "Book Session";
+    Layout = "_Layout";
+}
+
+<div class="container py-4">
+    <div class="card shadow">
+        <div class="card-header bg-primary text-white">
+            <h3><i class="fas fa-calendar-plus me-2"></i> Book Session</h3>
+        </div>
+        <div class="card-body">
+            <form asp-action="BookSession">
+                <input type="hidden" asp-for="TherapistId" />
+                <input type="hidden" asp-for="ClientId" />
+
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label asp-for="StartTime" class="form-label"></label>
+                        <input asp-for="StartTime" type="datetime-local" class="form-control">
+                        <span asp-validation-for="StartTime" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-6">
+                        <label asp-for="Type" class="form-label"></label>
+                        <select asp-for="Type" asp-items="Html.GetEnumSelectList<SessionType>()"
+                                class="form-select" id="sessionTypeSelect">
+                            <option value="">Select type...</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Dynamic Fields Based on Session Type -->
+                <div id="videoCallFields" class="session-type-fields" style="display:none;">
+                    <div class="card bg-light p-3 mb-3">
+                        <h5><i class="fas fa-video me-2"></i>Video Call Details</h5>
+                        <div class="form-check mb-2">
+                            <input class="form-check-input" type="checkbox" id="agreeToTerms" required>
+                            <label class="form-check-label" for="agreeToTerms">
+                                I agree to the video session terms
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="chatFields" class="session-type-fields" style="display:none;">
+                    <div class="card bg-light p-3 mb-3">
+                        <h5><i class="fas fa-comments me-2"></i>Chat Session Details</h5>
+                        <p>You'll receive a secure chat link after booking</p>
+                    </div>
+                </div>
+
+                <div id="inPersonFields" class="session-type-fields" style="display:none;">
+                    <div class="card bg-light p-3 mb-3">
+                        <h5><i class="fas fa-map-marker-alt me-2"></i>Location Details</h5>
+                        <div class="mb-3">
+                            <label class="form-label">Clinic Address</label>
+                            <input type="text" class="form-control" value="123 Therapy St, Mental Health City" readonly>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Notes" class="form-label"></label>
+                    <textarea asp-for="Notes" class="form-control" rows="3"></textarea>
+                </div>
+
+                <div class="d-grid gap-2">
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-check-circle me-1"></i> Confirm Booking
+                    </button>
+                    <a asp-action="TherapistDetails" asp-route-id="@Model.TherapistId"
+                       class="btn btn-outline-secondary">
+                        <i class="fas fa-arrow-left me-1"></i> Back to Therapist
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.getElementById('sessionTypeSelect').addEventListener('change', function() {
+            // Hide all fields first
+            document.querySelectorAll('.session-type-fields').forEach(field => {
+                field.style.display = 'none';
+            });
+
+            // Show relevant fields
+            const selectedType = this.value;
+            if (selectedType === 'VideoCall') {
+                document.getElementById('videoCallFields').style.display = 'block';
+            } else if (selectedType === 'Chat') {
+                document.getElementById('chatFields').style.display = 'block';
+            } else if (selectedType === 'InPerson') {
+                document.getElementById('inPersonFields').style.display = 'block';
+            }
+        });
+    </script>
+}

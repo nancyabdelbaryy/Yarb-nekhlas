@@ -1,0 +1,3421 @@
+{
+  "Version": 1,
+  "Hash": "8NFzR0uJVGmwlzkigVcg70/ugMsfqIfF4g+mQRrItw0=",
+  "Source": "mentalHealth",
+  "BasePath": "_content/mentalHealth",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "mentalHealth\\wwwroot",
+      "Source": "mentalHealth",
+      "ContentRoot": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\",
+      "BasePath": "_content/mentalHealth",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\obj\\Debug\\net8.0\\scopedcss\\bundle\\mentalHealth.styles.css",
+      "SourceId": "mentalHealth",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/mentalHealth",
+      "RelativePath": "mentalHealth#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "4lfdp96nya",
+      "Integrity": "2NL5oCx2t2egdFq2+SAau3sx2cSdVJszPK+G2FEOoEI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\obj\\Debug\\net8.0\\scopedcss\\bundle\\mentalHealth.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\mentalHealth.bundle.scp.css",
+      "SourceId": "mentalHealth",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/mentalHealth",
+      "RelativePath": "mentalHealth#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "4lfdp96nya",
+      "Integrity": "2NL5oCx2t2egdFq2+SAau3sx2cSdVJszPK+G2FEOoEI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\mentalHealth.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\css\\bootstrap.css",
+      "SourceId": "mentalHealth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\",
+      "BasePath": "_content/mentalHealth",
+      "RelativePath": "css/bootstrap#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zuvuklkj3l",
+      "Integrity": "Nfu23DiRqsrx/6B6vsI0T9vEVKq1M6KgO8+TV363g3s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.css"
+    },
+    {
+      "Identity": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\css\\font-awesome.min.css",
+      "SourceId": "mentalHealth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\",
+      "BasePath": "_content/mentalHealth",
+      "RelativePath": "css/font-awesome.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rf9f4pws8w",
+      "Integrity": "eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\font-awesome.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\css\\responsive.css",
+      "SourceId": "mentalHealth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\",
+      "BasePath": "_content/mentalHealth",
+      "RelativePath": "css/responsive#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fbnj4142us",
+      "Integrity": "NRvqtx7qesuCezxUaWAXkdb6ETzjflznD2nZPnPt6Ik=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\responsive.css"
+    },
+    {
+      "Identity": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\css\\style.css",
+      "SourceId": "mentalHealth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\",
+      "BasePath": "_content/mentalHealth",
+      "RelativePath": "css/style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "980lhntssd",
+      "Integrity": "l850ffTJCPmB+6AaWF+UAS7KIZf0/ZbB1KPAqNdrksw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\css\\style.css.map",
+      "SourceId": "mentalHealth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\",
+      "BasePath": "_content/mentalHealth",
+      "RelativePath": "css/style.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zhi5w7zl3g",
+      "Integrity": "GQfg5j/r5qO+Bg1SdbFV8BmOhRW1pX56CvXxBfXLmds=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\css\\style.scss",
+      "SourceId": "mentalHealth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\",
+      "BasePath": "_content/mentalHealth",
+      "RelativePath": "css/style#[.{fingerprint}]?.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g6qm2pyn6r",
+      "Integrity": "CFSHF8wvNx9681wmypwECyh54qutVAsz39KazKe30EI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.scss"
+    },
+    {
+      "Identity": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "SourceId": "mentalHealth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\",
+      "BasePath": "_content/mentalHealth",
+      "RelativePath": "fonts/fontawesome-webfont#[.{fingerprint}]?.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yex6mt8az7",
+      "Integrity": "qljzPyOaD7AvXHpsRcBD16msmgkzNYBmlOzW1O3A1qg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Identity": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "SourceId": "mentalHealth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\",
+      "BasePath": "_content/mentalHealth",
+      "RelativePath": "fonts/fontawesome-webfont#[.{fingerprint}]?.woff",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eyrbpue749",
+      "Integrity": "ugxZ3rVFD1y0Gz+TYJ7i0NmVQVh33foiPoqKdTNHTwc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Identity": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "SourceId": "mentalHealth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\",
+      "BasePath": "_content/mentalHealth",
+      "RelativePath": "fonts/fontawesome-webfont#[.{fingerprint}]?.woff2",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2hr3gl3r5x",
+      "Integrity": "Kt78vAQefRj88tQXh53FoJmXqmTWdbejxLbOM9oT8/4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Identity": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\about-img.jpg",
+      "SourceId": "mentalHealth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\",
+      "BasePath": "_content/mentalHealth",
+      "RelativePath": "images/about-img#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jpk7abdtye",
+      "Integrity": "l8rlVOsnhzAAHxPYZaygz8hSAHtGbAk0EpBWMhAS+9E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\about-img.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\contact-img.jpg",
+      "SourceId": "mentalHealth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\",
+      "BasePath": "_content/mentalHealth",
+      "RelativePath": "images/contact-img#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a4lluuxw6o",
+      "Integrity": "1nuxIYNAkGH3oWAVBNZ1/a5GZ+YJSBIYxjHPenZj904=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\contact-img.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\dots.png",
+      "SourceId": "mentalHealth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\",
+      "BasePath": "_content/mentalHealth",
+      "RelativePath": "images/dots#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "w76vnhdzmh",
+      "Integrity": "PBzJRsAYbZYmgcTXg0DRQ/ccOqkM+TrBD9XwEejRDK0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\dots.png"
+    },
+    {
+      "Identity": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\logo.png",
+      "SourceId": "mentalHealth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\",
+      "BasePath": "_content/mentalHealth",
+      "RelativePath": "images/logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o0fi3shmyk",
+      "Integrity": "iH+vZkX0lR1/VKVcR49cL/DJ0ktb/Xr6iiSu6n5bpqk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\next.png",
+      "SourceId": "mentalHealth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\",
+      "BasePath": "_content/mentalHealth",
+      "RelativePath": "images/next#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e9m31zwd6a",
+      "Integrity": "jh/GT13VsZufOOIT31u2kZ7ZdgjF9U4G3AGcFo1vmzM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\next.png"
+    },
+    {
+      "Identity": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\post1.jpg",
+      "SourceId": "mentalHealth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\",
+      "BasePath": "_content/mentalHealth",
+      "RelativePath": "images/post1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3xmosys51w",
+      "Integrity": "+REZW4BbpSW2NDVbJyR0dblRn7+A21iYrJoPaLYP6KI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\post1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\post2.jpg",
+      "SourceId": "mentalHealth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\",
+      "BasePath": "_content/mentalHealth",
+      "RelativePath": "images/post2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vi435xcecf",
+      "Integrity": "WT3Kj8cpiPiimnzQEr/0F6FG2fvgg49GtvaVG0XP1m8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\post2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\post3.jpg",
+      "SourceId": "mentalHealth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\",
+      "BasePath": "_content/mentalHealth",
+      "RelativePath": "images/post3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "reafqmaw4q",
+      "Integrity": "c/QJYBRHBNQVPnsJHlo4Nz8rsIFKhFH0VpWYCUI872U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\post3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\post4.png",
+      "SourceId": "mentalHealth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\",
+      "BasePath": "_content/mentalHealth",
+      "RelativePath": "images/post4#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "026mad37fh",
+      "Integrity": "KFY+oUHKGO5AerVQ8wriv7HmavvVqAXH9Gqiz4e8GZo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\post4.png"
+    },
+    {
+      "Identity": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\prev.png",
+      "SourceId": "mentalHealth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\",
+      "BasePath": "_content/mentalHealth",
+      "RelativePath": "images/prev#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "z48wh2izm0",
+      "Integrity": "M8r3gxJzUCJU+GjDa5SzbGoH8c4xeq3azX5BLtx/qb8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\prev.png"
+    },
+    {
+      "Identity": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\slider-img.jpg",
+      "SourceId": "mentalHealth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\",
+      "BasePath": "_content/mentalHealth",
+      "RelativePath": "images/slider-img#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ix6l9p37gg",
+      "Integrity": "qkxPpG7hPuvaXjJqJb8/lHHSBMpUexXX2iouVFCStLI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\slider-img.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\t1.png",
+      "SourceId": "mentalHealth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\",
+      "BasePath": "_content/mentalHealth",
+      "RelativePath": "images/t1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lsr15g5u70",
+      "Integrity": "9XdpihrXYtQVEA8SEs4nanwcq1Tof8VbFPzBv7m2ShE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\t1.png"
+    },
+    {
+      "Identity": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\t2.png",
+      "SourceId": "mentalHealth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\",
+      "BasePath": "_content/mentalHealth",
+      "RelativePath": "images/t2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "098vjnvt0b",
+      "Integrity": "hBr+7jLLEip+NCYYGGaGqsKVNCB5ipi97PEV5H7J/A4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\t2.png"
+    },
+    {
+      "Identity": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\t3.png",
+      "SourceId": "mentalHealth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\",
+      "BasePath": "_content/mentalHealth",
+      "RelativePath": "images/t3#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wcchgvxeq1",
+      "Integrity": "0NTWQg7eHGpCyrLmGYX4bCbmqbKiMjIRplGV4qdn3zI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\t3.png"
+    },
+    {
+      "Identity": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\t4.png",
+      "SourceId": "mentalHealth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\",
+      "BasePath": "_content/mentalHealth",
+      "RelativePath": "images/t4#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vade7h81bl",
+      "Integrity": "10WYjiZdvfhYBn+/S8k15GbeBagriizNdJLE8Qcc/jQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\t4.png"
+    },
+    {
+      "Identity": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\team1.jpg",
+      "SourceId": "mentalHealth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\",
+      "BasePath": "_content/mentalHealth",
+      "RelativePath": "images/team1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fnr7q56yua",
+      "Integrity": "u/UJgFyL0p83EPuJ2hos/jhZrm92BVcJqZLuO7o8Nac=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\team1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\team2.jpg",
+      "SourceId": "mentalHealth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\",
+      "BasePath": "_content/mentalHealth",
+      "RelativePath": "images/team2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ypym8o57q0",
+      "Integrity": "RtHl89vRDGhTORyQbmDZ3rXmWjfRWhfaJD6BgLDLZuU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\team2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\team3.jpg",
+      "SourceId": "mentalHealth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\",
+      "BasePath": "_content/mentalHealth",
+      "RelativePath": "images/team3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ocf5gtaapg",
+      "Integrity": "CF8fmkY8jyy52krz23CPtn7fkP85wZP6YMC0huA2qGE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\team3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\treatment-side-img.jpg",
+      "SourceId": "mentalHealth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\",
+      "BasePath": "_content/mentalHealth",
+      "RelativePath": "images/treatment-side-img#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3js0bb9wmx",
+      "Integrity": "bxeJuPTpbFBuJLQHIUlf/JIVHJ5lJq6dFDNdbHY7Rtg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\treatment-side-img.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\js\\bootstrap.js",
+      "SourceId": "mentalHealth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\",
+      "BasePath": "_content/mentalHealth",
+      "RelativePath": "js/bootstrap#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zgzvq6hqrg",
+      "Integrity": "U4e+MUWorPQL0R2Wu8JzoYEfmrP8YRsooudFx7E3hlI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\bootstrap.js"
+    },
+    {
+      "Identity": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\js\\custom.js",
+      "SourceId": "mentalHealth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\",
+      "BasePath": "_content/mentalHealth",
+      "RelativePath": "js/custom#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "30ot4dvpqo",
+      "Integrity": "wyaXTl49OPV4U3hEmIOzNjvB4pIIZbqXCjbzWMUv60k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\custom.js"
+    },
+    {
+      "Identity": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\js\\jquery-3.4.1.min.js",
+      "SourceId": "mentalHealth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\",
+      "BasePath": "_content/mentalHealth",
+      "RelativePath": "js/jquery-3.4.1.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "d6rpaas0a0",
+      "Integrity": "KzgTY92gSfLUmlkDeyKLyGXVH/uXfI9cNUfVwo3kjjo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\jquery-3.4.1.min.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/bootstrap.css",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\css\\bootstrap.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "192348"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Nfu23DiRqsrx/6B6vsI0T9vEVKq1M6KgO8+TV363g3s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Nfu23DiRqsrx/6B6vsI0T9vEVKq1M6KgO8+TV363g3s="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.zuvuklkj3l.css",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\css\\bootstrap.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "192348"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Nfu23DiRqsrx/6B6vsI0T9vEVKq1M6KgO8+TV363g3s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zuvuklkj3l"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Nfu23DiRqsrx/6B6vsI0T9vEVKq1M6KgO8+TV363g3s="
+        }
+      ]
+    },
+    {
+      "Route": "css/font-awesome.min.css",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\css\\font-awesome.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31000"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0="
+        }
+      ]
+    },
+    {
+      "Route": "css/font-awesome.min.rf9f4pws8w.css",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\css\\font-awesome.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31000"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rf9f4pws8w"
+        },
+        {
+          "Name": "label",
+          "Value": "css/font-awesome.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0="
+        }
+      ]
+    },
+    {
+      "Route": "css/responsive.css",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\css\\responsive.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2937"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NRvqtx7qesuCezxUaWAXkdb6ETzjflznD2nZPnPt6Ik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NRvqtx7qesuCezxUaWAXkdb6ETzjflznD2nZPnPt6Ik="
+        }
+      ]
+    },
+    {
+      "Route": "css/responsive.fbnj4142us.css",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\css\\responsive.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2937"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NRvqtx7qesuCezxUaWAXkdb6ETzjflznD2nZPnPt6Ik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fbnj4142us"
+        },
+        {
+          "Name": "label",
+          "Value": "css/responsive.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NRvqtx7qesuCezxUaWAXkdb6ETzjflznD2nZPnPt6Ik="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.980lhntssd.css",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22133"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l850ffTJCPmB+6AaWF+UAS7KIZf0/ZbB1KPAqNdrksw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "980lhntssd"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-l850ffTJCPmB+6AaWF+UAS7KIZf0/ZbB1KPAqNdrksw="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22133"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l850ffTJCPmB+6AaWF+UAS7KIZf0/ZbB1KPAqNdrksw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-l850ffTJCPmB+6AaWF+UAS7KIZf0/ZbB1KPAqNdrksw="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css.map",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\css\\style.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18479"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GQfg5j/r5qO+Bg1SdbFV8BmOhRW1pX56CvXxBfXLmds=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GQfg5j/r5qO+Bg1SdbFV8BmOhRW1pX56CvXxBfXLmds="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css.zhi5w7zl3g.map",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\css\\style.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18479"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GQfg5j/r5qO+Bg1SdbFV8BmOhRW1pX56CvXxBfXLmds=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zhi5w7zl3g"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GQfg5j/r5qO+Bg1SdbFV8BmOhRW1pX56CvXxBfXLmds="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.g6qm2pyn6r.scss",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\css\\style.scss",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16673"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CFSHF8wvNx9681wmypwECyh54qutVAsz39KazKe30EI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g6qm2pyn6r"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.scss"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CFSHF8wvNx9681wmypwECyh54qutVAsz39KazKe30EI="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.scss",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\css\\style.scss",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16673"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CFSHF8wvNx9681wmypwECyh54qutVAsz39KazKe30EI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CFSHF8wvNx9681wmypwECyh54qutVAsz39KazKe30EI="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/fontawesome-webfont.2hr3gl3r5x.woff2",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "77160"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/woff2"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kt78vAQefRj88tQXh53FoJmXqmTWdbejxLbOM9oT8/4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2hr3gl3r5x"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/fontawesome-webfont.woff2"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Kt78vAQefRj88tQXh53FoJmXqmTWdbejxLbOM9oT8/4="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/fontawesome-webfont.eyrbpue749.woff",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "98024"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/font-woff"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ugxZ3rVFD1y0Gz+TYJ7i0NmVQVh33foiPoqKdTNHTwc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eyrbpue749"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/fontawesome-webfont.woff"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ugxZ3rVFD1y0Gz+TYJ7i0NmVQVh33foiPoqKdTNHTwc="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/fontawesome-webfont.ttf",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "165548"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qljzPyOaD7AvXHpsRcBD16msmgkzNYBmlOzW1O3A1qg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qljzPyOaD7AvXHpsRcBD16msmgkzNYBmlOzW1O3A1qg="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/fontawesome-webfont.woff",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "98024"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/font-woff"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ugxZ3rVFD1y0Gz+TYJ7i0NmVQVh33foiPoqKdTNHTwc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ugxZ3rVFD1y0Gz+TYJ7i0NmVQVh33foiPoqKdTNHTwc="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/fontawesome-webfont.woff2",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "77160"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/woff2"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kt78vAQefRj88tQXh53FoJmXqmTWdbejxLbOM9oT8/4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Kt78vAQefRj88tQXh53FoJmXqmTWdbejxLbOM9oT8/4="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/fontawesome-webfont.yex6mt8az7.ttf",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "165548"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qljzPyOaD7AvXHpsRcBD16msmgkzNYBmlOzW1O3A1qg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yex6mt8az7"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/fontawesome-webfont.ttf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qljzPyOaD7AvXHpsRcBD16msmgkzNYBmlOzW1O3A1qg="
+        }
+      ]
+    },
+    {
+      "Route": "images/about-img.jpg",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\about-img.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "89184"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l8rlVOsnhzAAHxPYZaygz8hSAHtGbAk0EpBWMhAS+9E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-l8rlVOsnhzAAHxPYZaygz8hSAHtGbAk0EpBWMhAS+9E="
+        }
+      ]
+    },
+    {
+      "Route": "images/about-img.jpk7abdtye.jpg",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\about-img.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "89184"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l8rlVOsnhzAAHxPYZaygz8hSAHtGbAk0EpBWMhAS+9E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jpk7abdtye"
+        },
+        {
+          "Name": "label",
+          "Value": "images/about-img.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-l8rlVOsnhzAAHxPYZaygz8hSAHtGbAk0EpBWMhAS+9E="
+        }
+      ]
+    },
+    {
+      "Route": "images/contact-img.a4lluuxw6o.jpg",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\contact-img.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60612"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1nuxIYNAkGH3oWAVBNZ1/a5GZ+YJSBIYxjHPenZj904=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a4lluuxw6o"
+        },
+        {
+          "Name": "label",
+          "Value": "images/contact-img.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1nuxIYNAkGH3oWAVBNZ1/a5GZ+YJSBIYxjHPenZj904="
+        }
+      ]
+    },
+    {
+      "Route": "images/contact-img.jpg",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\contact-img.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60612"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1nuxIYNAkGH3oWAVBNZ1/a5GZ+YJSBIYxjHPenZj904=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1nuxIYNAkGH3oWAVBNZ1/a5GZ+YJSBIYxjHPenZj904="
+        }
+      ]
+    },
+    {
+      "Route": "images/dots.png",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\dots.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93998"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PBzJRsAYbZYmgcTXg0DRQ/ccOqkM+TrBD9XwEejRDK0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PBzJRsAYbZYmgcTXg0DRQ/ccOqkM+TrBD9XwEejRDK0="
+        }
+      ]
+    },
+    {
+      "Route": "images/dots.w76vnhdzmh.png",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\dots.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93998"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PBzJRsAYbZYmgcTXg0DRQ/ccOqkM+TrBD9XwEejRDK0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w76vnhdzmh"
+        },
+        {
+          "Name": "label",
+          "Value": "images/dots.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PBzJRsAYbZYmgcTXg0DRQ/ccOqkM+TrBD9XwEejRDK0="
+        }
+      ]
+    },
+    {
+      "Route": "images/logo.o0fi3shmyk.png",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7515"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iH+vZkX0lR1/VKVcR49cL/DJ0ktb/Xr6iiSu6n5bpqk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o0fi3shmyk"
+        },
+        {
+          "Name": "label",
+          "Value": "images/logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iH+vZkX0lR1/VKVcR49cL/DJ0ktb/Xr6iiSu6n5bpqk="
+        }
+      ]
+    },
+    {
+      "Route": "images/logo.png",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7515"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iH+vZkX0lR1/VKVcR49cL/DJ0ktb/Xr6iiSu6n5bpqk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iH+vZkX0lR1/VKVcR49cL/DJ0ktb/Xr6iiSu6n5bpqk="
+        }
+      ]
+    },
+    {
+      "Route": "images/next.e9m31zwd6a.png",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\next.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "328"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jh/GT13VsZufOOIT31u2kZ7ZdgjF9U4G3AGcFo1vmzM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e9m31zwd6a"
+        },
+        {
+          "Name": "label",
+          "Value": "images/next.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jh/GT13VsZufOOIT31u2kZ7ZdgjF9U4G3AGcFo1vmzM="
+        }
+      ]
+    },
+    {
+      "Route": "images/next.png",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\next.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "328"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jh/GT13VsZufOOIT31u2kZ7ZdgjF9U4G3AGcFo1vmzM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jh/GT13VsZufOOIT31u2kZ7ZdgjF9U4G3AGcFo1vmzM="
+        }
+      ]
+    },
+    {
+      "Route": "images/post1.3xmosys51w.jpg",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\post1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5844"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+REZW4BbpSW2NDVbJyR0dblRn7+A21iYrJoPaLYP6KI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3xmosys51w"
+        },
+        {
+          "Name": "label",
+          "Value": "images/post1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+REZW4BbpSW2NDVbJyR0dblRn7+A21iYrJoPaLYP6KI="
+        }
+      ]
+    },
+    {
+      "Route": "images/post1.jpg",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\post1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5844"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+REZW4BbpSW2NDVbJyR0dblRn7+A21iYrJoPaLYP6KI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+REZW4BbpSW2NDVbJyR0dblRn7+A21iYrJoPaLYP6KI="
+        }
+      ]
+    },
+    {
+      "Route": "images/post2.jpg",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\post2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4289"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WT3Kj8cpiPiimnzQEr/0F6FG2fvgg49GtvaVG0XP1m8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WT3Kj8cpiPiimnzQEr/0F6FG2fvgg49GtvaVG0XP1m8="
+        }
+      ]
+    },
+    {
+      "Route": "images/post2.vi435xcecf.jpg",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\post2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4289"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WT3Kj8cpiPiimnzQEr/0F6FG2fvgg49GtvaVG0XP1m8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vi435xcecf"
+        },
+        {
+          "Name": "label",
+          "Value": "images/post2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WT3Kj8cpiPiimnzQEr/0F6FG2fvgg49GtvaVG0XP1m8="
+        }
+      ]
+    },
+    {
+      "Route": "images/post3.jpg",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\post3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5075"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c/QJYBRHBNQVPnsJHlo4Nz8rsIFKhFH0VpWYCUI872U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c/QJYBRHBNQVPnsJHlo4Nz8rsIFKhFH0VpWYCUI872U="
+        }
+      ]
+    },
+    {
+      "Route": "images/post3.reafqmaw4q.jpg",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\post3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5075"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c/QJYBRHBNQVPnsJHlo4Nz8rsIFKhFH0VpWYCUI872U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "reafqmaw4q"
+        },
+        {
+          "Name": "label",
+          "Value": "images/post3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c/QJYBRHBNQVPnsJHlo4Nz8rsIFKhFH0VpWYCUI872U="
+        }
+      ]
+    },
+    {
+      "Route": "images/post4.026mad37fh.png",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\post4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5637"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KFY+oUHKGO5AerVQ8wriv7HmavvVqAXH9Gqiz4e8GZo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "026mad37fh"
+        },
+        {
+          "Name": "label",
+          "Value": "images/post4.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KFY+oUHKGO5AerVQ8wriv7HmavvVqAXH9Gqiz4e8GZo="
+        }
+      ]
+    },
+    {
+      "Route": "images/post4.png",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\post4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5637"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KFY+oUHKGO5AerVQ8wriv7HmavvVqAXH9Gqiz4e8GZo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KFY+oUHKGO5AerVQ8wriv7HmavvVqAXH9Gqiz4e8GZo="
+        }
+      ]
+    },
+    {
+      "Route": "images/prev.png",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\prev.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "362"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M8r3gxJzUCJU+GjDa5SzbGoH8c4xeq3azX5BLtx/qb8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-M8r3gxJzUCJU+GjDa5SzbGoH8c4xeq3azX5BLtx/qb8="
+        }
+      ]
+    },
+    {
+      "Route": "images/prev.z48wh2izm0.png",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\prev.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "362"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M8r3gxJzUCJU+GjDa5SzbGoH8c4xeq3azX5BLtx/qb8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z48wh2izm0"
+        },
+        {
+          "Name": "label",
+          "Value": "images/prev.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-M8r3gxJzUCJU+GjDa5SzbGoH8c4xeq3azX5BLtx/qb8="
+        }
+      ]
+    },
+    {
+      "Route": "images/slider-img.ix6l9p37gg.jpg",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\slider-img.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93064"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qkxPpG7hPuvaXjJqJb8/lHHSBMpUexXX2iouVFCStLI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ix6l9p37gg"
+        },
+        {
+          "Name": "label",
+          "Value": "images/slider-img.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qkxPpG7hPuvaXjJqJb8/lHHSBMpUexXX2iouVFCStLI="
+        }
+      ]
+    },
+    {
+      "Route": "images/slider-img.jpg",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\slider-img.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93064"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qkxPpG7hPuvaXjJqJb8/lHHSBMpUexXX2iouVFCStLI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qkxPpG7hPuvaXjJqJb8/lHHSBMpUexXX2iouVFCStLI="
+        }
+      ]
+    },
+    {
+      "Route": "images/t1.lsr15g5u70.png",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\t1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1410"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9XdpihrXYtQVEA8SEs4nanwcq1Tof8VbFPzBv7m2ShE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lsr15g5u70"
+        },
+        {
+          "Name": "label",
+          "Value": "images/t1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9XdpihrXYtQVEA8SEs4nanwcq1Tof8VbFPzBv7m2ShE="
+        }
+      ]
+    },
+    {
+      "Route": "images/t1.png",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\t1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1410"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9XdpihrXYtQVEA8SEs4nanwcq1Tof8VbFPzBv7m2ShE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9XdpihrXYtQVEA8SEs4nanwcq1Tof8VbFPzBv7m2ShE="
+        }
+      ]
+    },
+    {
+      "Route": "images/t2.098vjnvt0b.png",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\t2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2422"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hBr+7jLLEip+NCYYGGaGqsKVNCB5ipi97PEV5H7J/A4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "098vjnvt0b"
+        },
+        {
+          "Name": "label",
+          "Value": "images/t2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hBr+7jLLEip+NCYYGGaGqsKVNCB5ipi97PEV5H7J/A4="
+        }
+      ]
+    },
+    {
+      "Route": "images/t2.png",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\t2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2422"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hBr+7jLLEip+NCYYGGaGqsKVNCB5ipi97PEV5H7J/A4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hBr+7jLLEip+NCYYGGaGqsKVNCB5ipi97PEV5H7J/A4="
+        }
+      ]
+    },
+    {
+      "Route": "images/t3.png",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\t3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2891"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0NTWQg7eHGpCyrLmGYX4bCbmqbKiMjIRplGV4qdn3zI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0NTWQg7eHGpCyrLmGYX4bCbmqbKiMjIRplGV4qdn3zI="
+        }
+      ]
+    },
+    {
+      "Route": "images/t3.wcchgvxeq1.png",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\t3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2891"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0NTWQg7eHGpCyrLmGYX4bCbmqbKiMjIRplGV4qdn3zI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wcchgvxeq1"
+        },
+        {
+          "Name": "label",
+          "Value": "images/t3.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0NTWQg7eHGpCyrLmGYX4bCbmqbKiMjIRplGV4qdn3zI="
+        }
+      ]
+    },
+    {
+      "Route": "images/t4.png",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\t4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1836"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"10WYjiZdvfhYBn+/S8k15GbeBagriizNdJLE8Qcc/jQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-10WYjiZdvfhYBn+/S8k15GbeBagriizNdJLE8Qcc/jQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/t4.vade7h81bl.png",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\t4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1836"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"10WYjiZdvfhYBn+/S8k15GbeBagriizNdJLE8Qcc/jQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vade7h81bl"
+        },
+        {
+          "Name": "label",
+          "Value": "images/t4.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-10WYjiZdvfhYBn+/S8k15GbeBagriizNdJLE8Qcc/jQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/team1.fnr7q56yua.jpg",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\team1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60026"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u/UJgFyL0p83EPuJ2hos/jhZrm92BVcJqZLuO7o8Nac=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fnr7q56yua"
+        },
+        {
+          "Name": "label",
+          "Value": "images/team1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u/UJgFyL0p83EPuJ2hos/jhZrm92BVcJqZLuO7o8Nac="
+        }
+      ]
+    },
+    {
+      "Route": "images/team1.jpg",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\team1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60026"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u/UJgFyL0p83EPuJ2hos/jhZrm92BVcJqZLuO7o8Nac=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u/UJgFyL0p83EPuJ2hos/jhZrm92BVcJqZLuO7o8Nac="
+        }
+      ]
+    },
+    {
+      "Route": "images/team2.jpg",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\team2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62063"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RtHl89vRDGhTORyQbmDZ3rXmWjfRWhfaJD6BgLDLZuU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RtHl89vRDGhTORyQbmDZ3rXmWjfRWhfaJD6BgLDLZuU="
+        }
+      ]
+    },
+    {
+      "Route": "images/team2.ypym8o57q0.jpg",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\team2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62063"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RtHl89vRDGhTORyQbmDZ3rXmWjfRWhfaJD6BgLDLZuU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ypym8o57q0"
+        },
+        {
+          "Name": "label",
+          "Value": "images/team2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RtHl89vRDGhTORyQbmDZ3rXmWjfRWhfaJD6BgLDLZuU="
+        }
+      ]
+    },
+    {
+      "Route": "images/team3.jpg",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\team3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "70230"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CF8fmkY8jyy52krz23CPtn7fkP85wZP6YMC0huA2qGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CF8fmkY8jyy52krz23CPtn7fkP85wZP6YMC0huA2qGE="
+        }
+      ]
+    },
+    {
+      "Route": "images/team3.ocf5gtaapg.jpg",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\team3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "70230"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CF8fmkY8jyy52krz23CPtn7fkP85wZP6YMC0huA2qGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ocf5gtaapg"
+        },
+        {
+          "Name": "label",
+          "Value": "images/team3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CF8fmkY8jyy52krz23CPtn7fkP85wZP6YMC0huA2qGE="
+        }
+      ]
+    },
+    {
+      "Route": "images/treatment-side-img.3js0bb9wmx.jpg",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\treatment-side-img.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42282"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bxeJuPTpbFBuJLQHIUlf/JIVHJ5lJq6dFDNdbHY7Rtg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3js0bb9wmx"
+        },
+        {
+          "Name": "label",
+          "Value": "images/treatment-side-img.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bxeJuPTpbFBuJLQHIUlf/JIVHJ5lJq6dFDNdbHY7Rtg="
+        }
+      ]
+    },
+    {
+      "Route": "images/treatment-side-img.jpg",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\treatment-side-img.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42282"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bxeJuPTpbFBuJLQHIUlf/JIVHJ5lJq6dFDNdbHY7Rtg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bxeJuPTpbFBuJLQHIUlf/JIVHJ5lJq6dFDNdbHY7Rtg="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.js",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\js\\bootstrap.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "136796"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U4e+MUWorPQL0R2Wu8JzoYEfmrP8YRsooudFx7E3hlI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-U4e+MUWorPQL0R2Wu8JzoYEfmrP8YRsooudFx7E3hlI="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.zgzvq6hqrg.js",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\js\\bootstrap.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "136796"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U4e+MUWorPQL0R2Wu8JzoYEfmrP8YRsooudFx7E3hlI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zgzvq6hqrg"
+        },
+        {
+          "Name": "label",
+          "Value": "js/bootstrap.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-U4e+MUWorPQL0R2Wu8JzoYEfmrP8YRsooudFx7E3hlI="
+        }
+      ]
+    },
+    {
+      "Route": "js/custom.30ot4dvpqo.js",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\js\\custom.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wyaXTl49OPV4U3hEmIOzNjvB4pIIZbqXCjbzWMUv60k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "30ot4dvpqo"
+        },
+        {
+          "Name": "label",
+          "Value": "js/custom.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wyaXTl49OPV4U3hEmIOzNjvB4pIIZbqXCjbzWMUv60k="
+        }
+      ]
+    },
+    {
+      "Route": "js/custom.js",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\js\\custom.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wyaXTl49OPV4U3hEmIOzNjvB4pIIZbqXCjbzWMUv60k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wyaXTl49OPV4U3hEmIOzNjvB4pIIZbqXCjbzWMUv60k="
+        }
+      ]
+    },
+    {
+      "Route": "js/jquery-3.4.1.min.d6rpaas0a0.js",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\js\\jquery-3.4.1.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "88145"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KzgTY92gSfLUmlkDeyKLyGXVH/uXfI9cNUfVwo3kjjo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d6rpaas0a0"
+        },
+        {
+          "Name": "label",
+          "Value": "js/jquery-3.4.1.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KzgTY92gSfLUmlkDeyKLyGXVH/uXfI9cNUfVwo3kjjo="
+        }
+      ]
+    },
+    {
+      "Route": "js/jquery-3.4.1.min.js",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\js\\jquery-3.4.1.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "88145"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KzgTY92gSfLUmlkDeyKLyGXVH/uXfI9cNUfVwo3kjjo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 17:01:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KzgTY92gSfLUmlkDeyKLyGXVH/uXfI9cNUfVwo3kjjo="
+        }
+      ]
+    },
+    {
+      "Route": "mentalHealth.4lfdp96nya.bundle.scp.css",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\mentalHealth.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1130"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2NL5oCx2t2egdFq2+SAau3sx2cSdVJszPK+G2FEOoEI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 08:55:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4lfdp96nya"
+        },
+        {
+          "Name": "label",
+          "Value": "mentalHealth.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2NL5oCx2t2egdFq2+SAau3sx2cSdVJszPK+G2FEOoEI="
+        }
+      ]
+    },
+    {
+      "Route": "mentalHealth.4lfdp96nya.styles.css",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\obj\\Debug\\net8.0\\scopedcss\\bundle\\mentalHealth.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1130"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2NL5oCx2t2egdFq2+SAau3sx2cSdVJszPK+G2FEOoEI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 08:55:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4lfdp96nya"
+        },
+        {
+          "Name": "label",
+          "Value": "mentalHealth.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2NL5oCx2t2egdFq2+SAau3sx2cSdVJszPK+G2FEOoEI="
+        }
+      ]
+    },
+    {
+      "Route": "mentalHealth.bundle.scp.css",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\mentalHealth.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1130"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2NL5oCx2t2egdFq2+SAau3sx2cSdVJszPK+G2FEOoEI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 08:55:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2NL5oCx2t2egdFq2+SAau3sx2cSdVJszPK+G2FEOoEI="
+        }
+      ]
+    },
+    {
+      "Route": "mentalHealth.styles.css",
+      "AssetFile": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\obj\\Debug\\net8.0\\scopedcss\\bundle\\mentalHealth.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1130"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2NL5oCx2t2egdFq2+SAau3sx2cSdVJszPK+G2FEOoEI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 08:55:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2NL5oCx2t2egdFq2+SAau3sx2cSdVJszPK+G2FEOoEI="
+        }
+      ]
+    }
+  ]
+}

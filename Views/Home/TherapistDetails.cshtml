@@ -1,0 +1,42 @@
+﻿@model mentalHealth.Models.Therapist
+@{
+    ViewData["Title"] = "Therapist Profile";
+    Layout = "_Layout";
+}
+
+<div class="container py-4">
+    <div class="card shadow">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="@Model.ProfileImage" class="img-fluid rounded-start h-100" style="object-fit: cover;">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h2 class="card-title">@Model.Name</h2>
+                    <p class="text-primary">
+                        <i class="fas fa-certificate me-1"></i> @Model.Specialization
+                    </p>
+                    <div class="mb-3">
+                        <span class="badge bg-secondary">@Model.Gender</span>
+                        @if (Model.ProvidesOnlineSessions)
+                        {
+                            <span class="badge bg-success ms-1">Online Sessions</span>
+                        }
+                        @if (Model.ProvidesOfflineSessions)
+                        {
+                            <span class="badge bg-primary ms-1">In-Person Sessions</span>
+                        }
+                    </div>
+                    <h5 class="mt-4"><i class="fas fa-info-circle text-primary me-1"></i> About</h5>
+                    <p class="card-text">@Model.Bio</p>
+                    <h5 class="mt-4"><i class="fas fa-graduation-cap text-primary me-1"></i> Education</h5>
+                    <p>@Model.Education</p>
+                    <!-- Fixed Book Session Button -->
+                    <a asp-action="BookSession" asp-route-therapistId="@Model.Id" class="btn btn-primary mt-3">
+                        <i class="fas fa-calendar-plus me-1"></i> Book Session
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

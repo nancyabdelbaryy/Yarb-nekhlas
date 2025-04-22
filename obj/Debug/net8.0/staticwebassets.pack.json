@@ -1,0 +1,153 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\mentalHealth.bundle.scp.css",
+      "PackagePath": "staticwebassets\\mentalHealth.4lfdp96nya.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\css\\style.scss",
+      "PackagePath": "staticwebassets\\css\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\about-img.jpg",
+      "PackagePath": "staticwebassets\\images\\about-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\contact-img.jpg",
+      "PackagePath": "staticwebassets\\images\\contact-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\dots.png",
+      "PackagePath": "staticwebassets\\images\\dots.png"
+    },
+    {
+      "Id": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\next.png",
+      "PackagePath": "staticwebassets\\images\\next.png"
+    },
+    {
+      "Id": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\post1.jpg",
+      "PackagePath": "staticwebassets\\images\\post1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\post2.jpg",
+      "PackagePath": "staticwebassets\\images\\post2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\post3.jpg",
+      "PackagePath": "staticwebassets\\images\\post3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\post4.png",
+      "PackagePath": "staticwebassets\\images\\post4.png"
+    },
+    {
+      "Id": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\prev.png",
+      "PackagePath": "staticwebassets\\images\\prev.png"
+    },
+    {
+      "Id": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\slider-img.jpg",
+      "PackagePath": "staticwebassets\\images\\slider-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\t1.png",
+      "PackagePath": "staticwebassets\\images\\t1.png"
+    },
+    {
+      "Id": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\t2.png",
+      "PackagePath": "staticwebassets\\images\\t2.png"
+    },
+    {
+      "Id": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\t3.png",
+      "PackagePath": "staticwebassets\\images\\t3.png"
+    },
+    {
+      "Id": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\t4.png",
+      "PackagePath": "staticwebassets\\images\\t4.png"
+    },
+    {
+      "Id": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\team1.jpg",
+      "PackagePath": "staticwebassets\\images\\team1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\team2.jpg",
+      "PackagePath": "staticwebassets\\images\\team2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\team3.jpg",
+      "PackagePath": "staticwebassets\\images\\team3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\images\\treatment-side-img.jpg",
+      "PackagePath": "staticwebassets\\images\\treatment-side-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\SparkEG\\source\\repos\\mentalHealth\\mentalHealth\\wwwroot\\js\\jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.4.1.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.mentalHealth.props",
+      "PackagePath": "build\\mentalHealth.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.mentalHealth.props",
+      "PackagePath": "buildMultiTargeting\\mentalHealth.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.mentalHealth.props",
+      "PackagePath": "buildTransitive\\mentalHealth.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.mentalHealth.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.mentalHealth.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
